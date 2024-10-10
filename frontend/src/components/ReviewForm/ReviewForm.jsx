@@ -13,7 +13,7 @@ const ReviewForm = () => {
     e.preventDefault();
     
     try {
-      const response = await axios.post("http://localhost:4000/api/reviews", {
+      const response = await axios.post("https://bite-buzz-server-panel.onrender.com/api/reviews", {
         name,
         email,
         review,
